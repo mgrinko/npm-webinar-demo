@@ -1,0 +1,28 @@
+{
+  "name": "npm-webinar-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./public -c-1",
+    "predeploy": "echo \"123\"",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrinko/npm-webinar-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgrinko/npm-webinar-demo/issues"
+  },
+  "homepage": "https://github.com/mgrinko/npm-webinar-demo#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "sass": "^1.21.0"
+  }
+}
