@@ -1,3 +1,9 @@
-'use strict';
+let x = 1;
 
-alert('456');
+if (x > 12) x += 1;
+
+function hello(name) {
+  return `Hello${name}`;
+}
+
+hello();
